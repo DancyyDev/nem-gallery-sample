@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../gallery.css">
+    <script src="https://kit.fontawesome.com/a5b43c5e10.js" crossorigin="anonymous"></script>
+    <title>NEM-telegraph</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo-nem" src="../assets/logo.jpg"></a>
+        <h1 class="artifact-title">The Telegraph Machine</h1>
+        <span class="artifact-title-tagline">Connecting the World</span>
+
+        <nav>
+            <ul>
+                <a href="../pages/marconi.html"><li>Marconi Magnetic Detector</li></a>
+                <a href="../pages/audio.html"><li>Audio Translator</li></a>
+            </ul>
+        </nav>
+
+        <div class="artifact-info-group">
+            <span class="artifact-info-key">Name:</span>  
+            <span class="artifact-info">Telegraph Machine</span>
+
+            <span class="artifact-info-key">Inventor:</span> 
+            <span class="artifact-info">Samuel Morse and Alfred Vail</span>
+
+            <span class="artifact-info-key">Year of Invention:</span>
+            <span class="artifact-info">1837</span>
+
+            <span class="artifact-info-key">Speed:</span>
+            <span class="artifact-info">Messages transmitted in seconds</span>  
+
+            <span class="artifact-info-key">Language:</span>
+            <span class="artifact-info">Morse Code (Dots and Dashes)</span>  
+
+            <span class="artifact-info-key">Global Connections:</span>
+            <span class="artifact-info">Linked continents, changing the way we share information worldwide</span>      
+        </div>
+
+        <div class="backButton">
+                <i class="fa-solid fa-rotate-left"></i>
+                <a href="../index.html">
+                    <p>Home</p>
+                </a>
+        </div>
+        
+    </header>
+
+    <main class="artifact-main">
+
+        <div class="artifact-gallery">
+            <div class="artifact-fact">
+                <p>The telegraph transformed communication by sending messages long distance through wires, bridging gaps between people and places. Using Morse code, a series of dots and dashes, the telegraph connected the world faster than ever before</p>
+            </div>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="https://placekitten.com/400/400" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="https://placekitten.com/500/500" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="https://placekitten.com/300/500" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div class="gallery-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+        </div>
+
+        <section class="artifact-tabs">
+            <div class="tabs">
+                <h3 class="impact">What was the Impact</h3>
+                <h3 class="how">How Does it Work</h3>
+            </div>
+            
+            <div class="artifact-tabs-impact">
+                <p>Before the telegraph, communication was slow, and important information often arrived too late. With telegraph wires stretching across continents, news could be delivered quickly, which was especially important for businesses, governments, and families waiting for important updates. The telegraph was not just a device; it was a bridge between people and places. It played a significant role in the construction of the transcontinental railroad. Its ability to transmit messages quickly and accurately over long distances played a vital role in the successful completion of this monumental engineering project, connecting the East and West coasts of the United States and  making it easier to coordinate work and travel across the country.</p>
+                
+            </div>
+
+            <div class="artifact-tabs-works">
+                <p class="artifact-hidden">
+                    The telegraph's functioning relies on the transmission of electrical signals through wires and the interpretation of these signals into Morse code, enabling rapid long-distance communication in a time before telephones or modern digital communication methods existed.  When the operator presses the key, it completes an electrical circuit by connecting a battery to the telegraph wires.  This completion of the circuit sends an electrical pulse along the wires to the receiving end, where it triggers the sounder.  The operator at the receiving end listens to the clicks or beeps produced by the sounder and interprets the Morse code to understand the message.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="../main.js"></script>
+    <script src="../slideshow.js"></script>
+</body>
+</html>

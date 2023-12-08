@@ -1,0 +1,169 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header {
+    width: 20%;
+    padding: 0 5%;
+    border-right: 1px solid gray;
+}
+
+.museum-title {
+    margin: 0 0 20px 0;
+}
+
+.logo-nem {
+    width:200px;
+    height: 150px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    
+    margin: 10px 0px;
+}
+
+main {
+    width: 80%;
+    padding: 80px 50px;
+}
+
+.backButton {
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display:flex;
+    flex-direction: row;
+}
+.backButton p {
+    margin: 0 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.artifact-box {
+    width: 50%;
+}
+.artifact-link{
+    border: 1px solid black;
+    width: 80%;
+    height: 250px;
+    margin: 20px 50px;
+}
+.home .artifact-link h1 {
+    font-weight: 800;
+    text-align-last: left;
+    margin-top: 185px;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+#marconi{
+    font-weight: 800;
+    text-align-last: left;
+    margin-top: 150px;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+.home a{
+    text-decoration: none; 
+}
+
+/* sidebar */
+.artifact-title {
+    margin: 15px 0px 5px 0px;
+}
+.artifact-title-tagline {
+    font-style: italic;
+    font-size: 14pt;
+}
+.artifact-info-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.artifact-info-key {
+    font-style: italic;
+    font-size: 10pt;
+}
+.artifact-info {
+    font-size: 12pt;
+    margin: 0pt 0pt 10pt 0pt;
+}
+
+.artifact-fact p{
+    width: 100%;
+    font-size: 14pt;
+    line-height: 30pt;
+}
+
+.artifact-main {
+    display:flex;
+    flex-direction: row;
+}
+
+.artifact-tabs {
+    width: 50%;
+    height: 700px;
+    margin-left: 25px;
+    padding-left: 25px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.artifact-tabs h2 {
+    font-size: 14pt;
+    line-height: 30pt;
+}
+.artifact-tabs h4 {
+    font-size: 14pt;
+    line-height: 30pt;
+}
+.artifact-tabs p {
+    font-size: 16pt;
+    line-height: 30pt;
+}
+
+.history-of-wireless span,
+.history-of-wireless p{
+    font-size: 12pt;
+}
+.history-of-wireless p{
+    font-weight: 600;
+    line-height: 12pt;
+    margin: 0;
+}
+
+.how {
+    color: gray;
+}
+.impact {
+    color: black;
+}
+
+.artifact-hidden {
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
