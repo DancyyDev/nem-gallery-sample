@@ -168,15 +168,24 @@ main {
     justify-content: space-around;
 }
 
-.marconi {
-    background-image: url("https://placekitten.com/400/400");
+.marconi,
+.telegraph,
+.audio {
+    background-size: cover;
     overflow: hidden;
+    color: white;
+    text-shadow: black 1px 0 10px;
+}
+
+.marconi {
+    /* background-image: url("https://placekitten.com/400/400"); */
+    background-image: url("../sample-web/assets/pics/marconi_magnetic_detector.jpg");
 }
 .telegraph {
-    background-image: url("https://placekitten.com/500/400");
-    overflow: hidden;
+    /* background-image: url("https://placekitten.com/500/400"); */
+    background-image: url("../sample-web/assets/pics/telegraph\ set\ up.JPG");
 }
 .audio {
-    background-image: url("https://placekitten.com/300/300");
-    overflow: hidden;
+    /* background-image: url("https://placekitten.com/300/300"); */
+    background-image: url("../sample-web/assets/pics/audio\ translator\ set\ up.JPG");
 }
